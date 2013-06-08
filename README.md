@@ -4,7 +4,9 @@ A Leiningen plugin to generate IDE files for projects. This plugin supersedes
 the [ide-files](https://github.com/kumarshantanu/ide-files) Leiningen template.
 
 
-## Installation (requires Leiningen 2.1)
+## Installation
+
+_Requires Leiningen 2.1 or better._
 
 The recommended way is to install as a user-level plugin by putting
 `[lein-idefiles "0.2.0"]` into the `:plugins` vector of your `:user`
