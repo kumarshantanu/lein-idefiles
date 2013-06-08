@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+        {{#source-dirs}}
+        <classpathentry kind="src" path="{{.}}"/>
+        {{/source-dirs}}
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="classes"/>
+        {{#classpath-jars}}
+        <classpathentry kind="lib" path="{{jar-path}}"/>
+        {{/classpath-jars}}
+	<classpathentry kind="output" path="bin"/>
+</classpath>

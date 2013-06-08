@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Clojure" name="Clojure">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      {{#only-source-paths}}
+      <sourceFolder url="file://$MODULE_DIR$/{{.}}" isTestSource="false" />
+      {{/only-source-paths}}
+      {{#test-paths}}
+      <sourceFolder url="file://$MODULE_DIR$/{{.}}" isTestSource="true" />
+      {{/test-paths}}
+    </content>
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    {{#classpath-jars}}
+    <orderEntry type="library" name="{{jar-name}}" level="project" />
+    {{/classpath-jars}}
+  </component>
+</module>
