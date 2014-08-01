@@ -1,5 +1,9 @@
 # Changes and TODO
 
+## 2014-August-02 / 0.2.1
+
+* Fix #4: include `target/classes` on classpath instead of `classes` directory
+
 ## 2013-June-09 / 0.2.0
 
 * Turn into a Leiningen plugin (and a new Github repo)

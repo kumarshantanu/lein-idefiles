@@ -1,4 +1,4 @@
-(defproject lein-idefiles "0.2.0"
+(defproject lein-idefiles "0.2.1"
   :description "Generate IDE files for leiningen projects"
   :url "https://github.com/kumarshantanu/lein-idefiles"
   :license {:name "Eclipse Public License"
