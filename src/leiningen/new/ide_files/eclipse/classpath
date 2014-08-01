@@ -4,7 +4,7 @@
         <classpathentry kind="src" path="{{.}}"/>
         {{/source-dirs}}
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="classes"/>
+    <classpathentry kind="output" path="target/classes"/>
         {{#classpath-jars}}
         <classpathentry kind="lib" path="{{jar-path}}"/>
         {{/classpath-jars}}
